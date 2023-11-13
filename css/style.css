@@ -1,0 +1,56 @@
+/*
+      #lbUsername {
+        color: red;
+      }
+      label,
+      h4 {
+        color: blue;
+      }
+
+      h4 {
+        color: yellow;
+        font-weight: 200 !important;
+        }
+
+        */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h4 {
+  color: white;
+  background-color: blueviolet;
+  text-align: center;
+}
+body {
+  /* background-image: url("./images/paper.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top; */
+  /* background: red url("./images/paper.gif") no-repeat fixed left bottom; */
+  background: url("./images/paper.gif") repeat;
+  /* padding-left: 100px; */
+}
+form {
+  width: 300px;
+  background-color: darkgrey;
+  padding: 10px;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px; */
+  margin: 30px auto 0px auto;
+}
+label {
+  display: block;
+  /* margin-bottom: 4px;
+  margin-top: 4px; */
+  margin: 4px 0px;
+}
+input {
+  display: block;
+  width: 100%;
+}
+#button-container {
+  margin-top: 10px;
+}
